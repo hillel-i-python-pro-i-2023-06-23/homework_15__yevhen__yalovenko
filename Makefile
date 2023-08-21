@@ -45,7 +45,7 @@ init-dev:
 .PHONY: homework-i-run
 # Run homework.
 homework-i-run:
-	@python run.py
+	@flask run
 
 .PHONY: homework-i-purge
 homework-i-purge:

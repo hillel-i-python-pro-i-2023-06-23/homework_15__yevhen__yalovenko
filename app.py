@@ -26,7 +26,3 @@ def hello(args):
     number = args["number"]
 
     return generate_message(name=name, number=number)
-
-
-if __name__ == '__main__':
-    app.run()

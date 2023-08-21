@@ -1,0 +1,11 @@
+version: '3.9'
+
+
+services:
+  app:
+    user: "1000"
+    ports:
+      - "48000:45000"
+    command:
+      - --host=app
+      - --port=45000
