@@ -45,7 +45,7 @@ init-dev:
 .PHONY: homework-i-run
 # Run homework.
 homework-i-run:
-	@flask run
+	@flask run --host=0.0.0.0 --port=48000
 
 .PHONY: homework-i-purge
 homework-i-purge:
