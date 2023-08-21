@@ -7,9 +7,9 @@ from application.services.generate_message import generate_message
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def hello_world():
-    return 'Hello World!'
+    return "Hello World!"
 
 
 @app.route("/hi/<name>/<int:number>")
